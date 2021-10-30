@@ -1,6 +1,6 @@
 #!/bin/bash
 yum install httpd -y
 systemctl enable httpd
-mkdir /var/www/html/orders/
-echo "<h1>This is Orders App</h1>" > /var/www/html/orders/index.html
+mkdir /var/www/html/mobiles/
+echo "<h1>This is Amazon App</h1>" > /var/www/html/mobiles/index.html
 systemctl start httpd
