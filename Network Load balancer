@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo apt-get update -y
+sudo apt-get install apache2 -y
+sudo bash -c 'echo "<font color='green' size='200'><br><br>Instance-1</font>" > /var/www/html/index.html'
+sudo systemctl restart apache2.service
